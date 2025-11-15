@@ -1,5 +1,5 @@
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://lumibyte-1.onrender.com/api";
 
 export async function createSession(title) {
   const res = await fetch(`${API_BASE}/sessions`, {
